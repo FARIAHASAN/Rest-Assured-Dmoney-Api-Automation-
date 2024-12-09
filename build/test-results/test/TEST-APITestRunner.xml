@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="APITestRunner" tests="16" skipped="0" failures="0" errors="0" timestamp="2024-12-09T14:50:41" hostname="FARIAs-MacBook-Air.local" time="7.706">
+<testsuite name="APITestRunner" tests="16" skipped="0" failures="0" errors="0" timestamp="2024-12-09T16:02:49" hostname="FARIAs-MacBook-Air.local" time="15.623">
   <properties/>
-  <testcase name="doLogIn" classname="APITestRunner" time="4.775"/>
-  <testcase name="doCreateFirstCustomer" classname="APITestRunner" time="0.725"/>
-  <testcase name="doCreateSecondCustomer" classname="APITestRunner" time="0.344"/>
-  <testcase name="doCreateAgent" classname="APITestRunner" time="0.309"/>
-  <testcase name="doCreateMerchant" classname="APITestRunner" time="0.21"/>
-  <testcase name="doDepositToAgent" classname="APITestRunner" time="0.175"/>
-  <testcase name="checkAgentBalance" classname="APITestRunner" time="0.163"/>
-  <testcase name="doDepositToCustomer" classname="APITestRunner" time="0.142"/>
-  <testcase name="checkCustomerBalance" classname="APITestRunner" time="0.089"/>
-  <testcase name="withdrawByCustomer" classname="APITestRunner" time="0.089"/>
-  <testcase name="checkBalanceAfterWithdraw" classname="APITestRunner" time="0.068"/>
-  <testcase name="sendmoneyByCustomer" classname="APITestRunner" time="0.093"/>
-  <testcase name="checkBalanceAfterSendMoney" classname="APITestRunner" time="0.054"/>
-  <testcase name="checkBalanceOfRecipient" classname="APITestRunner" time="0.079"/>
-  <testcase name="paymentByCustomer" classname="APITestRunner" time="0.117"/>
-  <testcase name="checkBalanceAfterPayment" classname="APITestRunner" time="0.073"/>
+  <testcase name="doLogIn" classname="APITestRunner" time="7.767"/>
+  <testcase name="doCreateFirstCustomer" classname="APITestRunner" time="0.787"/>
+  <testcase name="doCreateSecondCustomer" classname="APITestRunner" time="0.701"/>
+  <testcase name="doCreateAgent" classname="APITestRunner" time="0.638"/>
+  <testcase name="doCreateMerchant" classname="APITestRunner" time="0.564"/>
+  <testcase name="doDepositToAgent" classname="APITestRunner" time="0.606"/>
+  <testcase name="checkAgentBalance" classname="APITestRunner" time="0.415"/>
+  <testcase name="doDepositToCustomer" classname="APITestRunner" time="1.502"/>
+  <testcase name="checkCustomerBalance" classname="APITestRunner" time="0.316"/>
+  <testcase name="withdrawByCustomer" classname="APITestRunner" time="0.304"/>
+  <testcase name="checkBalanceAfterWithdraw" classname="APITestRunner" time="0.281"/>
+  <testcase name="sendmoneyByCustomer" classname="APITestRunner" time="0.319"/>
+  <testcase name="checkBalanceAfterSendMoney" classname="APITestRunner" time="0.306"/>
+  <testcase name="checkBalanceOfRecipient" classname="APITestRunner" time="0.3"/>
+  <testcase name="paymentByCustomer" classname="APITestRunner" time="0.314"/>
+  <testcase name="checkBalanceAfterPayment" classname="APITestRunner" time="0.324"/>
   <system-out><![CDATA[http://dmoney.roadtocareer.net
 http://dmoney.roadtocareer.net
 http://dmoney.roadtocareer.net
 http://dmoney.roadtocareer.net
 http://dmoney.roadtocareer.net
 http://dmoney.roadtocareer.net
-{"message":"Deposit successful","trnxId":"TXN245473","commission":50,"currentBalance":15589840.83}
+{"message":"Deposit successful","trnxId":"TXN61209","commission":50,"currentBalance":15587905.83}
 http://dmoney.roadtocareer.net
 {"message":"User balance","balance":2000}
 Agent Balance Check  2000
 http://dmoney.roadtocareer.net
-{"message":"Deposit successful","trnxId":"TXN190769","commission":37.5,"currentBalance":537.5}
+{"message":"Deposit successful","trnxId":"TXN982534","commission":37.5,"currentBalance":537.5}
 http://dmoney.roadtocareer.net
 {"message":"User balance","balance":1500}
 Customer Balance Check  1500
 http://dmoney.roadtocareer.net
-{"message":"Withdraw successful","trnxId":"TXN805524","fee":5,"currentBalance":995}
+{"message":"Withdraw successful","trnxId":"TXN886379","fee":5,"currentBalance":995}
 http://dmoney.roadtocareer.net
 {"message":"User balance","balance":995}
 Customer Balance After withdraw:   995
 http://dmoney.roadtocareer.net
-{"message":"Send money successful","trnxId":"TXN556288","fee":5,"currentBalance":490}
+{"message":"Send money successful","trnxId":"TXN668137","fee":5,"currentBalance":490}
 http://dmoney.roadtocareer.net
 {"message":"User balance","balance":490}
 Customer Balance After send money:   490
@@ -46,7 +46,7 @@ http://dmoney.roadtocareer.net
 {"message":"User balance","balance":500}
 Customer2 Balance After receiving money from customer 1:   500
 http://dmoney.roadtocareer.net
-{"message":"Payment successful","trnxId":"TXN625636","fee":5,"currentBalance":395}
+{"message":"Payment successful","trnxId":"TXN33588","fee":5,"currentBalance":395}
 http://dmoney.roadtocareer.net
 {"message":"User balance","balance":395}
 Customer2 Balance After making payment to Merchant:   395

@@ -10,7 +10,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Utils {
-    static String infoPath ="./src/test/resources/customers_info.json";
+    static String infoPath ="./src/test/resources/users.json";
     public static void setEnvVar(String key ,String value) throws ConfigurationException {
         PropertiesConfiguration pc = new PropertiesConfiguration("./src/test/resources/config.properties");
         pc.setProperty(key,value);

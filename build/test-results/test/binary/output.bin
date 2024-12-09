@@ -4,12 +4,12 @@
 http://dmoney.roadtocareer.net
 http://dmoney.roadtocareer.net
 http://dmoney.roadtocareer.net
-c{"message":"Deposit successful","trnxId":"TXN245473","commission":50,"currentBalance":15589840.83}
+b{"message":"Deposit successful","trnxId":"TXN61209","commission":50,"currentBalance":15587905.83}
 http://dmoney.roadtocareer.net
 *{"message":"User balance","balance":2000}
 Agent Balance Check  2000
 	http://dmoney.roadtocareer.net
-	_{"message":"Deposit successful","trnxId":"TXN190769","commission":37.5,"currentBalance":537.5}
+	_{"message":"Deposit successful","trnxId":"TXN982534","commission":37.5,"currentBalance":537.5}
 
 http://dmoney.roadtocareer.net
 
@@ -17,12 +17,12 @@
 
 Customer Balance Check  1500
 http://dmoney.roadtocareer.net
-T{"message":"Withdraw successful","trnxId":"TXN805524","fee":5,"currentBalance":995}
+T{"message":"Withdraw successful","trnxId":"TXN886379","fee":5,"currentBalance":995}
 http://dmoney.roadtocareer.net
 ){"message":"User balance","balance":995}
 'Customer Balance After withdraw:   995
 http://dmoney.roadtocareer.net
-V{"message":"Send money successful","trnxId":"TXN556288","fee":5,"currentBalance":490}
+V{"message":"Send money successful","trnxId":"TXN668137","fee":5,"currentBalance":490}
 http://dmoney.roadtocareer.net
 ){"message":"User balance","balance":490}
 )Customer Balance After send money:   490
@@ -30,7 +30,7 @@
 ){"message":"User balance","balance":500}
 ?Customer2 Balance After receiving money from customer 1:   500
 http://dmoney.roadtocareer.net
-S{"message":"Payment successful","trnxId":"TXN625636","fee":5,"currentBalance":395}
+R{"message":"Payment successful","trnxId":"TXN33588","fee":5,"currentBalance":395}
 http://dmoney.roadtocareer.net
 ){"message":"User balance","balance":395}
 :Customer2 Balance After making payment to Merchant:   395
