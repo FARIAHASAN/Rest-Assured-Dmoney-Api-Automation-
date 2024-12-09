@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation group: 'commons-configuration', name: 'commons-configuration', version: '1.10'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.5.0'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.10.2'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.18.1'
+    implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.29.1'
+}
+
+test {
+    useTestNG(){
+        suites "./src/test/resources/regression_suite.xml"
+
+    }
+}
